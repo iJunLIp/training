@@ -1,0 +1,135 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-size: 14px;
+}
+.v1_2 {
+  width: 100%;
+  height: 1024px;
+  background: linear-gradient(88deg, #154c3e, #24999b, #997423, #c4be0c, #cb0a49);
+  background-size: 1000% 1000%;
+
+  animation: AnimationName 50s ease infinite;
+  padding: 10px 10px;
+  margin: 0px;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+
+@keyframes AnimationName {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 51%}
+  100%{background-position:0% 50%}
+}
+.v1_3 {
+  width: 318px;
+  height: 100%;
+  background: rgba(78,83,135,1);
+  opacity: 1;
+  position: absolute;
+  top: 22px;
+  left: 29px;
+  overflow: hidden;
+}
+.v1_5 {
+  width: 492px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 36px;
+  left: 549px;
+  font-family: Inter;
+  font-weight: Bold;
+  font-size: 40px;
+  opacity: 1;
+  text-align: center;
+}
+.v1_8 {
+  width: 514px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 206px;
+  left: 798px;
+  font-family: Inter;
+  font-weight: Bold;
+  font-size: 32px;
+  opacity: 1;
+  text-align: center;
+}
+.v1_9 {
+  width: 531px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 288px;
+  left: 814px;
+  font-family: Inter;
+  font-weight: Bold;
+  font-size: 24px;
+  opacity: 1;
+  text-align: center;
+}
+.v1_11 {
+  width: 545px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 478px;
+  left: 782px;
+  font-family: Inter;
+  font-weight: Bold;
+  font-size: 24px;
+  opacity: 1;
+  text-align: center;
+}
+.v1_10 {
+  width: 592px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 391px;
+  left: 759px;
+  font-family: Inter;
+  font-weight: Bold;
+  font-size: 24px;
+  opacity: 1;
+  text-align: center;
+}
+.v7_22 {
+  width: 290px;
+  height: 359px;
+  background: url("../images/v7_22.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 235px;
+  left: 387px;
+  overflow: hidden;
+}
+.v1_13 {
+  width: 564px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 961px;
+  left: 763px;
+  font-family: Inter;
+  font-weight: Bold;
+  font-size: 14px;
+  opacity: 1;
+  text-align: center;
+}
+.v7_23 {
+  width: 76px;
+  height: 63px;
+  background: url("../images/v7_23.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 898px;
+  left: 1018px;
+  overflow: hidden;
+}
